@@ -857,3 +857,362 @@ hr {
     color: #8C8C8C;
     text-align: center;
 }
+
+/* For responsive */
+@media screen and (max-width: 576px) {
+    .navbar {
+
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 100px;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .bg-light {
+        height: 1030px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .btn {
+        display: flex;
+        column-gap: 0;
+    }
+
+    .banner-container img {
+        height: 580px;
+        position: relative;
+        left: 30px;
+        width: 326px;
+    }
+
+    .button-section {
+        left: 180px;
+        bottom: 350px;
+        height: 80px;
+        width: 170px;
+        padding: 10px;
+
+    }
+
+    .button-section-icon {
+        left: -20px;
+        height: 80px;
+        width: 170px;
+        padding-top: 5px;
+    }
+
+    .icon {
+        height: 25px;
+        width: 25px;
+        margin-top: 15px;
+
+    }
+
+    .banner-content {
+        height: 333px;
+        /* border: 2px solid red; */
+        width: 355px;
+        margin: 0 auto;
+    }
+
+    .banner-tittle {
+        font-size: 2.2rem;
+
+    }
+
+    .habits {
+        margin-top: 50px;
+    }
+
+    .habits-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 353px;
+
+
+    }
+
+    .habits-description p {
+
+        height: 75px;
+
+    }
+
+    .card-container-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        height: 1300px;
+    }
+
+    .card-container {
+        margin: 0 auto;
+
+        gap: 10px;
+    }
+
+    .exercise {
+
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px 15px 30px;
+        height: 570px;
+        row-gap: 25px;
+
+
+
+    }
+
+    .exercise-container {
+        max-width: 350px;
+        height: 266px;
+
+
+    }
+
+    .exercise h1 {
+        font-size: 2rem;
+    }
+
+    .exercise p {
+        font-size: .9rem;
+        line-height: 20px;
+
+    }
+
+    .exercise button {
+
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .exercise img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-left: 25px;
+
+    }
+
+    .exercise-section {
+        max-width: 470px;
+        padding: 20px;
+    }
+
+    .training-container h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .training-container p {
+        font-size: 14px;
+    }
+
+    .training-image1 {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .training-image2 {
+        grid-template-columns: .95fr 1.05fr;
+    }
+
+    #img3,
+    #img6 {
+        display: none;
+    }
+
+    .bmi-section-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        height: 750px;
+        justify-content: space-evenly;
+
+    }
+
+    .bmi-calculator-chart {
+        width: 100%;
+    }
+
+    .bmi-section {
+        height: 890px;
+        margin-bottom: -60px;
+        padding: 20px;
+    }
+
+    .bmi {
+        width: 100%;
+
+
+    }
+
+    .bmi2 h2 {
+        width: 100%;
+        display: flex;
+
+        justify-content: start;
+        align-items: start;
+        margin-left: -20px;
+        font-size: 34px;
+    }
+
+    .bmi2 p {
+        margin-left: -10px;
+        font-size: 14px;
+        text-align: start;
+        color: #FFFFFF80;
+        margin-bottom: -20px;
+    }
+
+    .bmi-calculator-chart-box {
+
+
+        grid-template-columns: repeat(2, 50%);
+
+
+
+    }
+
+    .calculator {
+
+        margin: 0 auto;
+        justify-content: center;
+
+
+    }
+
+    .calculator {
+        grid-template-columns: repeat(2, 50%);
+        gap: 10px;
+
+    }
+    #calculator-btn {
+        width: 224px;
+        height: 54px;
+        background-color: #E6533C;
+        border: none;
+        border-radius: 70px;
+        margin-top: 5px;
+        color: white;
+        font-size: 18px;
+    }
+    .bmi-calculator {
+        width: 100%;
+
+
+    }
+
+    .meet-team-section {
+
+        height: 1400px;
+        margin-top: 100px;
+    }
+
+    .team-image-section {
+
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px;
+
+
+    }
+
+    .meet-section-description {
+        margin-top: 0px;
+    }
+
+    .meet-section {
+        margin-top: 40px;
+        width: 70%;
+
+    }
+
+    .meet-section h2 {
+
+        font-size: 2rem;
+    }
+
+    .meet-section p {
+        font-size: 14px;
+    }
+
+    .team-image-item {
+
+        max-width: 100%;
+        height: 275px;
+    }
+
+    #img-section1,
+    #img-section4 {
+
+        display: none;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer-section-container {
+        max-width: 700px;
+        height: 1000px;
+
+
+    }
+
+    .footer-topic-container {
+
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-description {
+
+        width: 80%;
+
+
+    }
+
+    .footer-section-container {
+        padding: 20px;
+    }
+
+    .footer-container1 {
+        width: 100%;
+
+
+    }
+
+    .footer-container2 {
+        width: 100%;
+    }
+
+    .footer-container1 h2,
+    h4,
+    .footer-container2 h2 {
+
+        padding-left: 0px;
+    }
+}
