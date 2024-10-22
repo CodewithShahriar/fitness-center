@@ -532,3 +532,143 @@ img {
     width: 50%;
     color: white;
 }
+
+/* bmi */
+.bmi-section-container {
+    max-width: 1160px;
+
+    height: 395px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi2 p {
+    color: #FFFFFF80;
+    text-align: center;
+}
+
+.bmi-section {
+    background: #222222;
+    height: 500px;
+
+}
+
+.bmi-calculator-chart-box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    margin-top: 40px;
+
+
+}
+
+.bmi-item {
+    display: grid;
+    grid-template-rows: repeat(1, 42px);
+    border: 1px solid #FFFFFF1A;
+    color: #FFFFFF80;
+    padding-left: 15px;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+#bmi-item1 {
+    font-weight: 500;
+    color: white;
+    padding-left: 15px;
+    font-size: 16px;
+
+}
+
+.bmi-calculator {
+    max-width: 580px;
+    margin-top: 120px;
+
+}
+
+.bmi-calculator p {
+    margin: 25px 0px;
+    color: #FFFFFF80;
+
+}
+
+.bmi-section h2 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.calculator {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+#input-selector {
+    grid-column: span 2;
+}
+
+.calculator input {
+    height: 48px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.calculator select {
+    height: 48px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#calculator-btn {
+    grid-column: span 2; 
+    width: 224px; 
+    height: 54px; 
+    background-color: #E6533C;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    font-size: 18px;
+    align-self: flex-start; 
+}
+
+
+
+/* Dropdown styles */
+.calculator select {
+    height: 48px;
+    background-color: #FFFFFF1A; /* Background color for the dropdown */
+    color: #FFFFFF99; /* Text color for the dropdown */
+    border-radius: 10px; /* Rounded corners */
+    padding-left: 15px; /* Padding inside the dropdown */
+    font-size: 14px; /* Font size */
+    border: 1px solid #FFFFFF1A; /* Border color */
+    
+}
+
+/* Styles for options */
+.calculator select option {
+    background-color: #222222; /* Background color for dropdown options */
+    color: #FFFFFF; /* Text color for options */
+    padding: 10px; /* Padding for options */
+}
+
+
+
+/* Placeholder color for input fields */
+.calculator input::placeholder {
+    color: #FFFFFF99; 
+    opacity: 1; 
+}
+
