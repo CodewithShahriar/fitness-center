@@ -1056,7 +1056,7 @@ hr {
     }
 
     .bmi-section {
-        height: 890px;
+        height: 870px;
         margin-bottom: -60px;
         padding: 20px;
     }
@@ -1214,5 +1214,209 @@ hr {
     .footer-container2 h2 {
 
         padding-left: 0px;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
+        padding: 20px 20px 0 20px;
+        justify-content: space-around;
+    }
+
+    .banner {
+        flex-direction: column;
+        max-width: 600px;
+        margin-top: 60px;
+    }
+
+    .nav-item {
+        padding-bottom: 6px;
+    }
+
+    .nav-links {
+        width: 400px;
+        height: 40px;
+
+    }
+
+    #home {
+        height: 38px;
+        padding-top: 5px;
+        padding-right: 15px;
+        /* margin-bottom: 10px; */
+    }
+
+    .bg-light {
+        height: 1250px;
+    }
+
+    .banner-content {
+
+        height: 400px;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .button-section h2 {
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+
+    .banner-image-container {
+        margin-top: 80px;
+    }
+
+    .banner-image-container {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .habits {
+        max-width: 600px;
+    }
+
+    .card-container-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 650px;
+        padding-left: 25px;
+    }
+
+    .exercise-section {
+        max-width: 700px;
+    }
+
+    .exercise {
+        padding: 0px 10px 0px 30px;
+
+    }
+
+    .exercise h1 {
+        font-size: 2.1rem;
+
+    }
+
+    .exercise p {
+        font-size: .8rem;
+        line-height: 16px;
+
+    }
+
+    .exercise-container {
+        height: 300px;
+        max-width: 264px;
+        align-items: flex-start;
+        margin-bottom: -10px;
+
+    }
+
+    .exercise img {
+        max-width: 260px;
+        height: 300px;
+        object-fit: none;
+        object-position: 68% 30%;
+        border-radius: 20px;
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+
+
+    .training-container h1 {
+
+        font-size: 2.8rem;
+    }
+
+    .training-container p {
+        font-size: .9rem;
+
+    }
+
+    .training-image1 {
+
+        grid-template-columns: .63fr .75fr .62fr;
+
+    }
+
+    .training-image2 {
+
+        grid-template-columns: .78fr .57fr .65fr;
+
+    }
+
+    .bmi-section-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        height: 750px;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .bmi2 h2 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: -10px;
+    }
+
+    .bmi2 p {
+        margin-left: -10px;
+        text-align: start;
+        color: #FFFFFF80;
+
+    }
+
+    .bmi-section {
+        height: 870px;
+    }
+
+    .bmi-calculator {
+        max-width: 95%;
+    }
+
+    /* meet team section */
+    .meet-section {
+
+        width: 70%;
+    }
+
+    .meet-team-section-container {
+        max-width: 700px;
+    }
+
+    .team-overlay {
+
+        width: 100%;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer-section-container {
+        max-width: 700px;
+        height: 700px;
+
+
+    }
+
+    .footer-topic-container {
+
+
+        width: 100%;
+    }
+
+    .footer-description {
+
+        width: 60%;
+
+
     }
 }
