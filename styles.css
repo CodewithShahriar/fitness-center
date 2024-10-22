@@ -313,3 +313,67 @@ img {
 .card-container p {
     height: 98px;
 }
+
+/* exercise section */
+
+.exercise-section {
+    max-width: 1160px;
+    margin: 0 auto;
+
+
+
+}
+
+.exercise {
+
+    display: flex;
+    justify-content: space-between;
+
+    height: 380px;
+    padding: 80px 40px 60px 80px;
+    margin-top: 40px;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 20px;
+}
+
+.exercise-container {
+    max-width: 470px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+
+}
+
+.exercise-container h1 {
+    color: white;
+
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.exercise-container p {
+    color: #FFFFFF80;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 70px;
+    margin-top: 10px;
+
+
+}
+
+.exercise img {
+    max-width: 365px;
+    height: 325px;
+    object-fit: none;
+    object-position: 68% 30%;
+    border-radius: 20px;
+    margin: 0px 20px 20px 10px;
+
+}
