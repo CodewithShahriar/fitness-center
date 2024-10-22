@@ -905,10 +905,10 @@ hr {
     }
 
     .button-section {
-        left: 210px;
+        left: 195px;
         bottom: 350px;
         height: 80px;
-        width: 170px;
+        width: 160px;
         padding: 10px;
 
     }
@@ -928,11 +928,11 @@ hr {
     }
 
     .banner-content {
-        height: 333px;
+        height: 393px;
         /* border: 2px solid red; */
         width: 355px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 10px;
     }
 
     .banner-tittle {
