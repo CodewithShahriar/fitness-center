@@ -703,7 +703,8 @@ img {
 
 .meet-section p {
     color: #FFFFFF80;
-    font-size: .8rem;
+    font-size: 1rem;
+    padding-top: 10px;
 }
 
 .team-image-section {
