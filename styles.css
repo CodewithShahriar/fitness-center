@@ -428,7 +428,7 @@ img {
 }
 
 #img1 {
-    background-image: url('/images/exercise1.jpg');
+    background-image: url('./images/exercise1.jpg');
 }
 
 #img2 {
@@ -744,7 +744,7 @@ img {
 }
 
 #img-section6 {
-    background-image: url('/images/trainer6.png');
+    background-image: url('./images/trainer6.png');
 
 }
 
