@@ -1497,8 +1497,8 @@ hr {
     border-bottom: none;
   }
   
-  /* Responsive for smaller screens */
-  @media (max-width: 768px) {
+  
+  @media (max-width: 576px) {
     .pricing-container {
       flex-direction: column;
       align-items: center;
