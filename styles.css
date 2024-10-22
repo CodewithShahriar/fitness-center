@@ -319,6 +319,7 @@ img {
 .exercise-section {
     max-width: 1160px;
     margin: 0 auto;
+    margin-top: 5%;
 
 
 
@@ -376,4 +377,158 @@ img {
     border-radius: 20px;
     margin: 0px 20px 20px 10px;
 
+}
+
+
+/* training section */
+.training-section {
+    margin: 50px 0px;
+
+
+}
+
+.training-container h1 {
+    color: white;
+    font-size: 3rem;
+    padding: 20px 0px;
+
+}
+
+.training-container p {
+    color: #FFFFFF80;
+    margin-bottom: 20px;
+
+}
+
+.training-image1 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .50fr 1fr .50fr;
+    grid-template-rows: repeat(1, 250px);
+    margin-top: 40px;
+
+}
+
+.training-image2 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .80fr .55fr .65fr;
+    grid-template-rows: repeat(1, 250px);
+}
+
+.image-item {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+#img1 {
+    background-image: url('../images/exercise1.jpg');
+}
+
+#img2 {
+    background-image: url('../images/exercise2.png');
+}
+
+#img3 {
+    background-image: url('../images/exercise3.png');
+}
+
+#img4 {
+    background-image: url('../images/exercise4.png');
+}
+
+#img5 {
+    background-image: url('../images/exercise5.jpg');
+}
+
+#img6 {
+    background-image: url('../images/exercise6.jpg');
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.overlay3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+}
+
+.overlay6 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+}
+
+.overlay1 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+
+}
+
+.overlay2 h3 {
+    position: relative;
+    left: 8%;
+    top: 15%;
+    width: 50%;
+    color: white;
+}
+
+.overlay3 h3 {
+    position: relative;
+    left: 8%;
+    top: 75%;
+    width: 50%;
+    color: white;
+    
+}
+
+.overlay4 h3 {
+    position: relative;
+    left: 65%;
+    top: 15%;
+    width: 50%;
+    color: white;
+
+}
+
+.overlay5 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+    color: white;
+}
+
+.overlay6 h3 {
+    position: relative;
+    left: 8%;
+    top: 80%;
+    width: 50%;
+    color: white;
 }
