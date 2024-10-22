@@ -225,3 +225,91 @@ img {
     color: white;
     display: none;
 }
+
+/* main section */
+
+.habits {
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-top: 4%;
+
+}
+
+.habits-description {
+
+    padding: 20px 10px;
+}
+
+.habits-description h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+
+}
+
+.habits p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF80;
+
+}
+
+.habits h3 {
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.habits-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.habits-description p {
+    margin: 10px;
+    height: 40px;
+
+}
+
+.card-container-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    height: 325px;
+
+}
+
+.card-container {
+    width: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.card-container img {
+    max-width: 100%;
+    height: 225px;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    border: 2px solid rgb(56, 55, 55);
+
+}
+
+.card-container p {
+    height: 98px;
+}
