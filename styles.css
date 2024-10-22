@@ -98,3 +98,129 @@ body {
     color: white;
     padding-left: 10px;
 }
+
+/* banner styles */
+.banner {
+    display: flex;
+    max-width: 1160px;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.banner-content-container {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.banner-tittle {
+    font-size: 4.7rem;
+    color: white;
+    font-weight: 900;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF80;
+    margin-top: 20px;
+}
+
+.btn {
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid #FFFFFF80;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 0px;
+}
+
+.button-section-icon {
+    display: flex;
+    padding: 10px 15px;
+    gap: 20px;
+    position: absolute;
+    bottom: 80px;
+    right: 240px;
+    color: white;
+    height: 90px;
+    width: 190px;
+}
+
+.button-content {
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+
+}
+
+.button-section {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    align-items: start;
+    bottom: 360px;
+    left: 200px;
+    color: white;
+    height: 90px;
+    width: 190px;
+}
+
+h5 {
+
+    color: #FFFFFF80;
+}
+
+.button-section-icon,
+.button-section {
+
+    border-radius: 14px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    background-color: #3030308A;
+    border: 1px solid #FFFFFF1A;
+}
+
+.button-section h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.button-section-icon h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.icon {
+
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #EC553D;
+    margin-top: 15px;
+}
+
+img {
+    height: 580px;
+
+}
+
+.menu-bar {
+    color: white;
+    display: none;
+}
