@@ -765,3 +765,95 @@ img {
 .team-overlay h5 {
     color: #FFFFFF80;
 }
+
+
+/* footer section */
+.footer {
+    background-color: #191919;
+
+
+}
+
+.footer-section-container {
+    max-width: 1160px;
+    height: 400px;
+    margin: 0 auto;
+
+
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+
+.footer-description {
+    color: white;
+    width: 35%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.footer-description h1 {
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 900;
+    color: #E6533C;
+
+}
+
+.footer-description p {
+    color: #8C8C8C;
+}
+
+.footer-container1 {
+    width: 50%;
+    height: 250px;
+    margin-top: 44px;
+}
+
+.footer-container2 {
+    width: 50%;
+    height: 250px;
+    margin-top: 44px;
+}
+
+.footer-topic-container {
+
+    display: flex;
+    width: 50%;
+}
+
+.footer-title{
+    padding-bottom: 65px;
+}
+.footer-container1 h2,
+h4,
+.footer-container2 h2 {
+    height: 40px;
+    color: white;
+    padding-left: 80px;
+}
+
+.footer-container2,
+.footer-container1,
+h4 {
+    color: #8C8C8C;
+}
+
+hr {
+    border: 1px solid #8C8C8C;
+}
+
+.footer-end {
+    margin-top: 30px;
+    color: #8C8C8C;
+    text-align: center;
+}
