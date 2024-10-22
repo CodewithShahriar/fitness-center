@@ -115,6 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    margin-top: 80px;
 }
 
 .banner-tittle {
@@ -208,13 +209,16 @@ h5 {
 }
 
 .icon {
-
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     height: 30px;
     width: 30px;
     background-color: #EC553D;
     margin-top: 15px;
 }
+
 
 img {
     height: 580px;
@@ -928,6 +932,7 @@ hr {
         /* border: 2px solid red; */
         width: 355px;
         margin: 0 auto;
+        margin-top: 80px;
     }
 
     .banner-tittle {
@@ -936,7 +941,7 @@ hr {
     }
 
     .habits {
-        margin-top: 50px;
+        margin-top: 160px;
     }
 
     .habits-description {
