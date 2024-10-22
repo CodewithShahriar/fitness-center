@@ -432,23 +432,23 @@ img {
 }
 
 #img2 {
-    background-image: url('/images/exercise2.png');
+    background-image: url('./images/exercise2.png');
 }
 
 #img3 {
-    background-image: url('/images/exercise3.png');
+    background-image: url('./images/exercise3.png');
 }
 
 #img4 {
-    background-image: url('/images/exercise4.png');
+    background-image: url('./images/exercise4.png');
 }
 
 #img5 {
-    background-image: url('/images/exercise5.jpg');
+    background-image: url('./images/exercise5.jpg');
 }
 
 #img6 {
-    background-image: url('/images/exercise6.jpg');
+    background-image: url('./images/exercise6.jpg');
 }
 
 .overlay1 {
@@ -723,24 +723,24 @@ img {
 }
 
 #img-section1 {
-    background-image: url('/images/trainer1.png');
+    background-image: url('./images/trainer1.png');
 
 }
 
 #img-section2 {
-    background-image: url('/images/trainer2.png');
+    background-image: url('./images/trainer2.png');
 }
 
 #img-section3 {
-    background-image: url('/images/trainer3.png');
+    background-image: url('./images/trainer3.png');
 }
 
 #img-section4 {
-    background-image: url('../images/trainer4.png');
+    background-image: url('./images/trainer4.png');
 }
 
 #img-section5 {
-    background-image: url('/images/trainer5.png');
+    background-image: url('./images/trainer5.png');
 }
 
 #img-section6 {
